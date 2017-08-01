@@ -3,7 +3,7 @@ const webpack = require('webpack');
 
 module.exports = {
   devtool: 'cheap-eval-source-map',
-  entry: './js/app.js',
+  entry: './js/app.jsx',
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: 'bundle.js'
@@ -11,7 +11,7 @@ module.exports = {
   module: {
    rules: [
      {
-       test: /\.js$/,
+       test: /\.jsx$/,
        exclude: /node_modules/,
        use: {
          loader: 'babel-loader',
