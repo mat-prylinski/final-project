@@ -5,6 +5,7 @@ import '../scss/main.scss';
 import {Template} from './components/template.jsx';
 
 //testowy komentarz LOL
+//kolejny testowy komentarz HEHEHEHE
 class App extends React.Component {
   render(){
     return (
