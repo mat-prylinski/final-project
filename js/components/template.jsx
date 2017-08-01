@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import {Header} from './header.jsx';
 import {Footer} from './footer.jsx';
 import {Content} from './content.jsx';
+import Slider from "react-slick";
 
 import Kebab1 from '../../images/kebab-wolowina.png';
 import Kebab2 from '../../images/falafel.jpg';
