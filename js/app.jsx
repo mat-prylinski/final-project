@@ -4,7 +4,7 @@ import {Router, Route, Link, IndexLink, IndexRoute, hashHistory} from 'react-rou
 import '../scss/main.scss';
 import {Template} from './components/template.jsx';
 
-
+//testowy komentarz LOL
 class App extends React.Component {
   render(){
     return (
