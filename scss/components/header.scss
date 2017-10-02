@@ -1,19 +1,9 @@
-.header {
+@import 'components/headernav';
+@import 'components/landing';
+@import 'components/shop';
 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    li {
-      display: inline-block;
-        padding: 10px;
-        font-size: 20px;
-        font-weight: 700;
-        color: #ffffff;
-
-    }
-  }
+header {
+    background-image: url('../images/monuments.jpg');
+    background-position: left top;
+    background-size: cover;
 }

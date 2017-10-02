@@ -1,0 +1,9 @@
+@import './shopbutton';
+@import './cart';
+@import './login';
+.shop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2em;
+}

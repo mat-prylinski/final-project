@@ -1,0 +1,26 @@
+.login {
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    border: 2px solid $white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-out 0.2s;
+    .person {
+        cursor: pointer;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: 'ElegantIcons';
+        color: $white;
+    }
+    &:hover {
+        border: 2px solid $orange;
+        background-color: $orange;
+    }
+}

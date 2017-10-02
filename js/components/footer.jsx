@@ -6,7 +6,11 @@ export class Footer extends React.Component {
   render() {
     return (
       <footer>
-        <p>Copyrights: myself</p>
+        <div className='container'>
+          <div className='flexbox'>
+            <p>Copyrights &copy; Mateusz Pryliński 2017</p>
+          </div>
+        </div> 
       </footer>
     )
   }

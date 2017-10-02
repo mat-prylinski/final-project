@@ -1,0 +1,37 @@
+.shop-button {
+    margin: 0 15px 0 20px;
+    cursor: pointer;
+    position: relative;
+    width: 170px;
+    height: 48px;
+    border: 2px solid $white;
+    border-radius: 35px;
+    transition: ease-out 0.2s;
+    span {
+        position: absolute;
+        top: 17px;
+        left: 125px;
+        color: $white;
+        font-size: 14px;
+        transition: ease-out 0.2s;
+    }
+    button {
+        cursor: pointer;
+        display: inline;
+        border: none;
+        background-color: transparent;
+        font-size: 14px;
+        font-weight: normal;
+        color: $white;
+        position: absolute;
+        top: 13px;
+        left: 35px;
+    }
+    &:hover {
+        border: 2px solid $orange;
+        background-color: $orange;
+        span {
+            margin-left: 10px;
+        }
+    }
+}

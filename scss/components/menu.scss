@@ -1,0 +1,22 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 2em;
+    ul {
+        display: inline;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        li {
+            display: inline;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: normal;
+            color: $white;
+        }
+        li:first-child {
+        padding-left: 40px;
+        }
+    }
+}
